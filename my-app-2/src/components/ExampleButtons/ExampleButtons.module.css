@@ -1,0 +1,49 @@
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+  
+.primary {
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.primary:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+  
+.default {
+  background-color: #f0f0f0;
+  color: var(--primary-color);
+  padding: 10px 20px;
+}
+  
+  .default:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .dashed {
+    border: 1px dashed var(--primary-color);
+    color: var(--primary-color);
+}
+  
+  .dashed:hover {
+    border-color: #40a9ff;
+    color: #40a9ff;
+  }
+  
+  .danger {
+    background-color: #e74c3c;
+    color: white;
+}
+  
+  .danger:hover {
+    background-color: #ff7875;
+  }
+  

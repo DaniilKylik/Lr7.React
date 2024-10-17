@@ -1,0 +1,66 @@
+/* Світла тема */
+/* Світла тема */
+:root {
+    --primary-color: #3498db; /* Основний колір кнопок */
+    --background-color: #f5f5f5; /* Основний фон */
+    --header-background-color: #34495e; /* Колір фону для хедера */
+    --text-color: #2c3e50; /* Основний колір тексту */
+    --item-background-color: #ffffff; /* Фон для елементів списку */
+    --button-bg: #3498db; /* Основний колір кнопок */
+    --button-text-color: #ffffff; /* Колір тексту на кнопках */
+    --header-text-color: #ffffff; /* Колір тексту у хедері та футері */
+}
+  
+  /* Стилі для основних елементів сторінки */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--header-text-color);
+  }
+  
+  .ant-btn-primary {
+    background-color: var(--button-bg);
+    color: var(--button-text-color);
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #1677cc;
+  }
+  
+/* Темна тема */
+.dark-theme {
+    --primary-color: #e74c3c; /* Насичений червоний для кнопок у темній темі */
+    --background-color: #2c3e50; /* Фон темної теми */
+    --header-background-color: #1a252f; /* Темний хедер */
+    --text-color: #ecf0f1; /* Світлий текст */
+    --item-background-color: #34495e; /* Фон елементів у темній темі */
+    --button-bg: #e74c3c; /* Насичений червоний для кнопок */
+    --button-text-color: #ffffff; /* Світлий текст на кнопках */
+    --header-text-color: #ecf0f1; /* Контрастний світлий текст для хедера та футера */
+}
+  
+  .dark-theme body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .dark-theme h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
+  .dark-theme .ant-btn-primary {
+    background-color: var(--button-bg);
+    color: var(--button-text-color);
+  }
+  
+  .dark-theme .ant-btn-primary:hover {
+    background-color: #444444;
+  }
+  
+  .header, .footer {
+    color: var(--header-text-color);
+}

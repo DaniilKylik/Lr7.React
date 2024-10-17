@@ -1,0 +1,30 @@
+.productItem {
+  background-color: var(--item-background-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productItem:hover {
+    background-color:  darken(var(--background-color), 5%);
+  }
+  
+  .productItem .ant-checkbox-wrapper {
+    color: var(--text-color);
+  }
+
+  .productName {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .checkbox {
+    margin-left: 20px;
+  }
+  

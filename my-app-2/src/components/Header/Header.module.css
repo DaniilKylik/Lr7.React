@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto; /* Щоб перемістити блок actions в кінець */
+}
+
+.themeSwitch {
+  margin-left: 10px; /* Трохи відступу між кнопкою і перемикачем */
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.loginButton, .logoutButton {
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover, .logoutButton:hover {
+  background-color: darken(var(--button-bg), 10%);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--header-text-color);
+}
